@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Go Live</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+    body {
+      font-family: 'Spline Sans', sans-serif;
+    }
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-black">
+<div class="relative flex flex-col h-screen bg-gray-900 text-white">
+<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAHE-R473R2E-ZogEfDWt-Syv1cBkn0QKV4JY9zyyFn-NcVVPk19wwtQvOuzftKZRG8gc_xFOaojkl4-DkhLc0Wtf3QpNzqdTXAA2rx6l3vNXLL0-5E52bPSSZq78JWRMZuC5IukwHYEIwWOPGcrR0et9CUPhw-SLIvRl63t0DvlPHggi3dR_2I0jsBC3GqTCC535D1au_dehR2-I2SlzYn2ZtBXm7ue5CjJg8wTISEF-4NVoKfgMKVb_D1RaYYzXhW6KtF-oN2QUU');">
+<div class="absolute inset-0 bg-black/30"></div>
+</div>
+<header class="absolute top-0 left-0 right-0 p-4 flex justify-end">
+<div class="flex items-center gap-2">
+<button class="flex items-center justify-center rounded-full size-10 bg-black/50">
+<span class="material-symbols-outlined">flip_camera_android</span>
+</button>
+<button class="flex items-center justify-center rounded-full size-10 bg-black/50">
+<span class="material-symbols-outlined">mic_off</span>
+</button>
+<button class="flex items-center justify-center rounded-full size-10 bg-black/50">
+<span class="material-symbols-outlined text-red-500">close</span>
+</button>
+</div>
+</header>
+<div class="relative flex flex-col flex-1 justify-end p-4 z-10 space-y-4">
+<div class="flex-grow"></div>
+<div class="space-y-3">
+<input class="w-full bg-black/50 border-none rounded-full h-14 px-5 text-white placeholder-gray-400 focus:ring-2 focus:ring-[#ea2a33]/50" placeholder="Add a title..." type="text"/>
+<select class="w-full bg-black/50 border-none rounded-full h-14 px-5 text-white placeholder-gray-400 focus:ring-2 focus:ring-[#ea2a33]/50 appearance-none">
+<option>Select a topic</option>
+<option>Gaming</option>
+<option>Music</option>
+<option>Q&amp;A</option>
+</select>
+<div class="grid grid-cols-2 gap-3">
+<button class="flex items-center justify-center gap-2 w-full bg-black/50 rounded-full h-12 px-5">
+<span class="material-symbols-outlined">auto_awesome</span>
+<span>Effects</span>
+</button>
+<button class="flex items-center justify-center gap-2 w-full bg-black/50 rounded-full h-12 px-5">
+<span class="material-symbols-outlined">filter_vintage</span>
+<span>Filters</span>
+</button>
+</div>
+<button class="w-full bg-[#ea2a33] text-white font-bold rounded-full h-14 px-5 text-lg">
+          Go Live
+        </button>
+</div>
+</div>
+</div>
+
+</body></html>
